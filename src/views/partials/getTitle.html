@@ -1,0 +1,9 @@
+<script>
+document.getElementById('title').focus();
+document.getElementById('delete').addEventListener('click', function(e){
+let response = confirm('Are ou sure to delete?');
+if (!response) {
+    e.preventDefault();
+}
+});
+</script>
